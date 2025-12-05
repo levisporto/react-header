@@ -1,5 +1,6 @@
+import {Link, Router, Routes} from 'react-router-dom'
 
-import { useState } from 'react'
+
 
 
 function Header() {
@@ -10,10 +11,10 @@ function Header() {
     <div class="col-span-5"><h1>
       <header class="ms-8 flex flex-col gap-2  sm:flex-row sm:items-center sm:gap-6 sm:py-4 justify-between">
         <div  class="flex  gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4">
-        <img src="/digital.svg" alt="Ícone da Digital" />
-<p class=" font-bold text-2xl  text-pink-600">
+        <Link to ='/'><img src="/digital.svg" alt="Ícone da Digital" /></Link>
+        <Link to ='/'><p class=" font-bold text-2xl  text-pink-600">
     Digital Store
-</p>
+</p></Link>
 <div class=" w-5xl flex px-4 py-3 rounded-md border border-white bg-gray-100 border-white-500   mx-auto">
         <input placeholder="Pesquisar produto..."
           class="w-full outline-none bg-transparent text-gray-600 text-sm" />
@@ -31,14 +32,7 @@ function Header() {
         <img class='w-8  ms-8 me-8' src="/carrinho.png" alt="Ícone do Carrinho" />
         </div>
       </header></h1></div>
-    <div class="col-span-5 row-start-2"> 
-      <div class="ms-8 flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 ">
-      <p class=' font-bold text-decoration-line: underline  text-pink-600' >Home</p>
- <p>Produtos</p>
- <p>Categorias</p>
- <p>Meus pedidos</p>
-      </div>
- </div>
+    
 </div>
       
       
