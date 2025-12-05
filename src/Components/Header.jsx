@@ -27,8 +27,8 @@ function Header() {
         </div>
         <div  class="flex flex-col gap-10 p-8 sm:flex-row   ">
         <p class='text-decoration-line: underline  text-gray-600'>Cadastre-se</p>
-        <button type="button" class="bg-pink-500 hover:bg-purple-700 text-white py-1  px-6 rounded" >Entrar</button> 
-        <img src="/carrinho.png" alt="Ícone do Carrinho" />
+        <button type="button" class="bg-pink-500 hover:bg-purple-700 text-white py-1  px-6 rounded text-sm" >Entrar</button> 
+        <img class='w-8  ms-8 me-8' src="/carrinho.png" alt="Ícone do Carrinho" />
         </div>
       </header></h1></div>
     <div class="col-span-5 row-start-2"> 
