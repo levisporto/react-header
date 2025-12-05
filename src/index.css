@@ -1,10 +1,2 @@
 @import "tailwindcss";
 
-*{
-  background-color: #ffffff;
-}
-
-header{
-  display: flex;
-  
-}
